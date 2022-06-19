@@ -1,6 +1,6 @@
 const cliente={
     nombre:'Juan',
-    balance:500
+    balance:600
 }
 
 describe('Testing al cliente',()=>{
@@ -16,6 +16,8 @@ describe('Testing al cliente',()=>{
     test('No es otro cliente',()=>{
     
         expect(cliente.nombre).not.toBe('Pedro');
-
+    })
+    test('No tiene 500',()=>{
+        expect(cliente.balance).not.toBe(500);
     })
 })
