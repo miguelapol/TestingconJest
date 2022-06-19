@@ -15,4 +15,8 @@ describe('Testing functions de suma y resta', () => {
     test('que la suma 10 y 10 nose 10', () => {
         expect(suma(10, 10)).not.toBe(10);
     })
+    test('que la resta 10 -5 no sea otro valor', () => {
+        expect(resta(10, 5)).not.toBe(10);
+
+    })
 })
