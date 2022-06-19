@@ -8,5 +8,9 @@ describe('Testing al cliente',()=>{
         //ser mayor a toBeGreaterThan
         expect(cliente.balance).toBeGreaterThan(400);
      
+    });
+    test('Es juan?',()=>{
+        expect(cliente.nombre).toBe('Juan');
+
     })
 })
