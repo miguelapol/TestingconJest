@@ -13,4 +13,9 @@ describe('Testing al cliente',()=>{
         expect(cliente.nombre).toBe('Juan');
 
     })
+    test('No es otro cliente',()=>{
+    
+        expect(cliente.nombre).not.toBe('Pedro');
+
+    })
 })
