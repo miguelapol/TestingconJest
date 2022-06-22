@@ -1,3 +1,4 @@
+
 const cliente={
     nombre:'Juan',
     balance:600
